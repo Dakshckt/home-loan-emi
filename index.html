@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Loan EMI </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="mainDiv">
+
+            <!-- !INPUT VALUE TO BE TAKEN -->
+            <!-- ? https://www.hdfc.com/home-loan-emi-calculator -->
+
+            <div class="loanLabel">HOME LOAN EMI CALCULATOR</div><br>
+
+            <div class="baseDiv">
+                
+    
+                <label for="range1" id="label1">Selected Loan Amount :</label>
+                <input type="text" placeholder="Amount" id="selectedValue1">
+                <button id="addPrice" onclick="increasePrice(this)">+ [Add One Million]</button><br>
+                <input type="range" id="range1" min="0" max="100000000" value="0" step="1"><br>
+
+                <label for="range2" id="label2">Selected Years :</label>
+                <input type="text" placeholder="Year" id="selectedValue2"><br>
+                <input type="range" id="range2" min="0" max="30" value="0" step="1"><br>
+
+                <label for="range3" id="label3">Selected Intereset Rate :</label>
+                <input type="text" placeholder="Interest" id="selectedValue3"><br>
+                <input type="range" id="range3" min="0" max="15" value="0" step="0.5"><br>
+
+                <input type="button" value="Calculate" onclick="calculateEMI(this)">
+            </div>
+
+        </div>
+
+        <div id="spaceBar">
+                <button onclick="refresh()" style="border-radius: 10px;border:0.2px solid;">Refresh</button>
+        </div>
+
+        <!-- Display karne wala div  -->
+        <div class="mainDivTable">
+            <div id="tableDIV"></div>
+        </div>
+
+
+        <script src="main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{
+    font-family:fira code;
+}
+
+body{
+    background-color:#99b7d2;
+}
+
+.loanLabel{
+    font-size:30px;
+    color:whitesmoke;
+    text-align:center;
+    background-color:darkblue;
+    border:1px solid black;
+    border-radius:20px;
+}
+
+.mainDiv{
+    /* border:1px solid black; */
+    width:1000px;
+    height:250px;
+    margin:auto;
+    background-color: rgba(255 ,255 ,255 ,0.8);
+    border:1px solid black;
+    border-radius: 20px;
+}
+
+.baseDiv{
+
+    padding-left:50px;
+}
+
+.mainDivTable{
+    width:1000px;
+    height:auto;
+    margin:auto;
+    margin-top:50px;
+    border:1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255 ,255 ,255 ,0.8);
+    border-radius: 20px;
+}
+
+#range1,
+#range2,
+#range3{
+    width:600px;
+    height:20px;
+    color:red !important;
+}
+
+.tableDIVAttribute{
+    width:200px;
+    height:90px;
+    background-color:darkblue;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    overflow:hidden;
+
+}
+
+.tableDIV{
+    width:200px;
+    height:40px;
+    border:1px solid black;
+    text-align: center;
+}
+
+.tableDivRow{
+    display:flex;
+    width:1000px;
+}
+
+#spaceBar{
+    width:1000px;
+    height:30px;
+    text-align:right;
+    /* border:1px solid black; */
+    margin:auto;
+    margin-bottom:100px;
+}
+
+
